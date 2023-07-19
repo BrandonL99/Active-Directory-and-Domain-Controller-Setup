@@ -43,10 +43,10 @@ We are going to rename the VM, so right-click on the start at the bottom left, g
 Once you are back in were going to click on Network and go to Change adapter options.
 <br />
 <br />
-Now right-click on the left side and go to status and details. Now when you see the IPv4 Address that has a lot of numbers such as 169.254.37.134, We are going to rename this as INTERNAL, this network is not connected to the internet. We will name the other network INTERNET. So what we are going to do is right-click and select Properties, select Internet Protocol Version 4. click Use the following IP address 172.16.0.1, the subnet mask is 255.255.255.0 and the Preferred DNS server is 127.0.0.1. Now click OK.
+Now right-click on the left side and go to status and details. Now when you see the IPv4 Address that has a lot of numbers such as 169.254.37.134, We are going to rename this as X_INTERNAL_X, this network is not connected to the internet. We will name the other network _INTERNET_. So what we are going to do is right-click and select Properties, select Internet Protocol Version 4. click Use the following IP address 172.16.0.1, the subnet mask is 255.255.255.0 and the Preferred DNS server is 127.0.0.1. Now click OK.
 <br /> 
 <br />
-<img src="https://i.imgur.com/AxXPZe0.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/Pw7vWXN.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 Now that's done we can add DHCP, active directory, so go to the Server Manager and click Add roles and features. Click next until you get to Server Roles and click DHCP Server, add features, Active Directory Domain Serves, and Remote Access. Now click next until you get to the role services page and add routing. When the installation is finished hit close. 
