@@ -100,6 +100,7 @@ Now that it's finished setting up and you are logged in go to the command prompt
 <img src="https://i.imgur.com/kVhKW0F.png" height="80%" width="80%" alt=""/>
 <br />
 Now we will connect to the domain controller so we can log in with any account in the database. Right-click the start menu go to the system, Rename this PC (advanced).
+<br />
 <img src="https://i.imgur.com/qJATZOE.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
