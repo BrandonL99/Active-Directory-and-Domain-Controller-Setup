@@ -81,6 +81,8 @@ Now we are going to make the Windows 10 client server. Head back to the virtual 
 <img src="https://i.imgur.com/xt6K9FC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/FwBbM1L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/XaB4cVA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 Now right-click and go to settings, Go to Network, and under Attached to: change it to Internal Network. Now click ok and start the VM. Now when the ISO Box pops up, you can add the Windows 10 ISO Which is available on this link https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise. Download the 64-bit edition ISO-Enterprise.
 <br />
 <img src="https://i.imgur.com/SZmsz4y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
