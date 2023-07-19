@@ -75,5 +75,31 @@ Click next until you get to Router (Default Gateway), make it 172.16.0.1, and cl
 <br />
 <br />
 <img src="https://i.imgur.com/7j2cggi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-
+<br />
+<br />
+Now we are going to make the Windows 10 client server. Head back to the virtual box but keep DC running. Now click New and name it CLIENT1 and keep the Version Windows 10 (64-bit). Base memory is 2040MB and 2 Processors. 35GB Hard Disk, and Finish.
+<img src="https://i.imgur.com/xt6K9FC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FwBbM1L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XaB4cVA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now right-click and go to settings, Go to Network, and under Attached to: change it to Internal Network. Now click ok and start the VM. Now when the ISO Box pops up, you can add the Windows 10 ISO Which is available on this link https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise. Download the 64-bit edition ISO-Enterprise.
+<br />
+<img src="https://i.imgur.com/SZmsz4y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Now we will let it install. When the screen Which type of installation do you want? Click Custom Install instead of Upgrade, and when the screen Sign in with Microsoft shows up, click Domain Join instead in the bottom left. Where it says Choose privacy settings for your device, turn off all settings, and Cortana help. 
+<br />
+<img src="https://i.imgur.com/cO7Bant.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/PB8tUE3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Now that it's finished setting up and you are logged in go to the command prompt we can type in (ipconfig) to see if we have a Default gateway is the Ip from the domain controller and type in ping google.com and it successfully works and has a 0% loss than everything is working correctly.
+<br />
+<img src="https://i.imgur.com/kVhKW0F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+Now we will connect to the domain controller so we can log in with any account in the database. Right-click the start menu go to the system, Rename this PC (advanced).
+<img src="https://i.imgur.com/qJATZOE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Click To rename this computer or change its domain or workgroup. click Change. Change the Computer name: to CLIENT1 and Member of Domain: mydomain.com and on Computer Name/Domain Changes put a-yourname and Password1 and click OK.
+Now when logging in go to Other user and use your a-yourname and Password1.
